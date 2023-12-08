@@ -4,19 +4,25 @@
              x:Class="Tres.Restar"
              Title="Restar">
     <VerticalStackLayout>
-        <Entry x:Name="dato1"
+        <Entry x:Name="Dato1"
     Placeholder="Enter text"
             Keyboard="Numeric"
      />
 
-        <Entry x:Name="dato2"
+        <Entry x:Name="Dato2"
     Placeholder="Enter text"
      />
 
-        <Entry x:Name="respuesta"
+        <Entry x:Name="Respuesta"
     Placeholder="Enter text"
             IsReadOnly="True"
             
      />
+
+        <Button Text="RESTAR"
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        Clicked="OnButtonClicked" />
+        
     </VerticalStackLayout>
 </ContentPage>
