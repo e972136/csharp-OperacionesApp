@@ -3,19 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Tres.MainPage"
               xmlns:local="clr-namespace:Tres"
+             BarBackgroundColor="#273c75"
+             BarTextColor="White"
+                SelectedTabColor="White"
+            UnselectedTabColor="Red"
             Title="MainPage"
             >
 
-    <local:Sumar Title="Sumar" IconImageSource="home.svg">
+    <local:Sumar Title="Sumar" >
     </local:Sumar>
 
-    <local:Restar Title="Restar" IconImageSource="home.svg">
+    <local:Restar Title="Restar">
     </local:Restar>
 
-    <local:Multiplicar Title="Multiplicar" IconImageSource="home.svg">
+    <local:Multiplicar Title="Multiplicar">
     </local:Multiplicar>
 
-    <local:Division Title="Division" IconImageSource="home.svg">
+    <local:Division Title="Division" >
     </local:Division>    
 
 </TabbedPage>
