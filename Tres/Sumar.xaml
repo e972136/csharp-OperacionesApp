@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tres.Sumar"
+             Title="Sumar">
+    <VerticalStackLayout>
+        <Entry x:Name="Dato1"
+    Placeholder="Enter text"
+            Keyboard="Numeric"
+     />
+
+        <Entry x:Name="Dato2"
+    Placeholder="Enter text"
+     />
+
+        <Entry x:Name="Dato3"
+    Placeholder="Enter text"
+     />
+
+        <Entry x:Name="Respuesta"
+    Placeholder="Enter text"
+            IsReadOnly="True"
+            
+     />
+
+        <Button Text="SUMAR"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Clicked="OnButtonClicked" />
+
+    </VerticalStackLayout>
+</ContentPage>

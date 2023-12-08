@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tres.Restar"
+             Title="Restar">
+    <VerticalStackLayout>
+        <Entry x:Name="dato1"
+    Placeholder="Enter text"
+            Keyboard="Numeric"
+     />
+
+        <Entry x:Name="dato2"
+    Placeholder="Enter text"
+     />
+
+        <Entry x:Name="respuesta"
+    Placeholder="Enter text"
+            IsReadOnly="True"
+            
+     />
+    </VerticalStackLayout>
+</ContentPage>
