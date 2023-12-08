@@ -4,23 +4,29 @@
              x:Class="Tres.Multiplicar"
              Title="Multiplicar">
     <VerticalStackLayout>
-        <Entry x:Name="dato1"
+        <Entry x:Name="Dato1"
     Placeholder="Enter text"
             Keyboard="Numeric"
      />
 
-        <Entry x:Name="dato2"
+        <Entry x:Name="Dato2"
     Placeholder="Enter text"
      />
 
-        <Entry x:Name="dato3"
+        <Entry x:Name="Dato3"
     Placeholder="Enter text"
      />
 
-        <Entry x:Name="respuesta"
+        <Entry x:Name="Respuesta"
     Placeholder="Enter text"
             IsReadOnly="True"
             
      />
+
+
+        <Button Text="MULTIPLICAR"
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        Clicked="OnButtonClicked" />
     </VerticalStackLayout>
 </ContentPage>
