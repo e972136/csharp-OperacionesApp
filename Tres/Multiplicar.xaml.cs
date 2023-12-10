@@ -18,7 +18,7 @@ public partial class Multiplicar : ContentPage
             Respuesta.Text = resultado.ToString();
         }catch(Exception ex)
         {
-            DisplayAlert("Error", ex.Message, "ok");
+            Mensaje.MostrarNotificacion(ex.Message);
         }
 
     }

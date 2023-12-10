@@ -4,20 +4,25 @@
              x:Class="Tres.Division"
              Title="Division">
     <VerticalStackLayout>
-        <Entry x:Name="dato1"
-    Placeholder="Enter text"
+        <Entry x:Name="Dato1"
+    Placeholder="dato1"
             Keyboard="Numeric"
      />
 
-        <Entry x:Name="dato2"
-    Placeholder="Enter text"
+        <Entry x:Name="Dato2"
+    Placeholder="dato2"
      />
 
 
-        <Entry x:Name="respuesta"
-    Placeholder="Enter text"
+        <Entry x:Name="Respuesta"
+    Placeholder="respuesta"
             IsReadOnly="True"
             
      />
+
+        <Button Text="DIVIDIR"
+        VerticalOptions="Center"
+        HorizontalOptions="Center"
+        Clicked="OnButtonClicked" />
     </VerticalStackLayout>
 </ContentPage>

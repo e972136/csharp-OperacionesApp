@@ -5,12 +5,12 @@
              Title="Restar">
     <VerticalStackLayout>
         <Entry x:Name="Dato1"
-    Placeholder="Enter text"
+    Placeholder="Primer valor"
             Keyboard="Numeric"
      />
 
         <Entry x:Name="Dato2"
-    Placeholder="Enter text"
+    Placeholder="Segundo Valor"
      />
 
         <Entry x:Name="Respuesta"

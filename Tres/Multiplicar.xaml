@@ -5,20 +5,20 @@
              Title="Multiplicar">
     <VerticalStackLayout>
         <Entry x:Name="Dato1"
-    Placeholder="Enter text"
+    Placeholder="Dato1"
             Keyboard="Numeric"
      />
 
         <Entry x:Name="Dato2"
-    Placeholder="Enter text"
+    Placeholder="Dato2"
      />
 
         <Entry x:Name="Dato3"
-    Placeholder="Enter text"
+    Placeholder="Dato2"
      />
 
         <Entry x:Name="Respuesta"
-    Placeholder="Enter text"
+    Placeholder="Respuesta"
             IsReadOnly="True"
             
      />
